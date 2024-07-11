@@ -1,0 +1,81 @@
+.nav{
+    background-color:#D7D1C0 ;
+}
+
+.textos{
+    color:#D7D1C0 ;
+}
+
+#boton{
+    background-color: #68ADCC;
+    color: #010570;
+    
+}
+
+#tituloNegro{
+    color: black;
+}
+
+.divh1Negro{
+    height: 150px;
+}
+
+#piePagina{
+    background-color:#999999;;
+}
+
+#boton1{
+    background-color: #68ADCC;
+    color: #010570;
+    
+}
+
+/* secciones*/
+#cursos{
+    background-image: url('img/background.png'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.pills{
+    background-color: #999999;
+    background-image: url('img/background.png'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.pildora {
+    width: 500px; /* Ancho del div */
+    height: 40px; /* Altura del div */
+    background-color: #444444; /* Color de fondo */
+    border-radius: 25px; /* La mitad de la altura para crear la píldora */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .pildora {
+        width: 90vw; /* 90% del ancho de la ventana para pantallas más pequeñas */
+        padding-left: 20px; /* Reducir el padding en pantallas pequeñas */
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh; /* Altura de la ventana gráfica para que los divs se espacien */
+    padding: 20px; /* Espacio alrededor de la container */
+}
+
+.fila{
+    width: 100%; /* Asegura que las filas ocupen todo el ancho de la container */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
